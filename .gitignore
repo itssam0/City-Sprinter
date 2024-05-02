@@ -1,0 +1,56 @@
+## Ignorar la carpeta de Visual Studio .vs
+.vs/
+
+## Archivos de configuración de usuario de Visual Studio
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## Archivos de compilación de Visual Studio
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+
+## Archivos de respaldo
+*.[Bb]ak
+*.[Tt]mp
+*.[Ll]og
+
+## Otros archivos y carpetas
+packages/   # Carpeta de paquetes NuGet
+*.ncrunch*  # NCrunch
+*.sln.docstates
+*.vspscc    # Archivos de control de fuente específicos de Visual Studio
+*.vssscc    # Archivos de control de fuente específicos de Visual Studio
+
+# Archivos de caché y logs
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Carpetas específicas de herramientas y frameworks
+.nuget/
+_ReSharper*/
+[Tt]est[Pp]rojects/
+
+# Archivos y carpetas de herramientas de editor de texto
+*.swp
+*.*swp
+*.un~
+*.swo
+*.idea
+*.vscode
+
+# Archivos específicos de OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails de macOS
+._*
+
+# Archivos específicos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
