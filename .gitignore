@@ -70,3 +70,9 @@ ehthumbs.db
 Desktop.ini
 Library/PackageCache/
 Library/PackageCache/
+
+
+git filter-branch --force --index-filter \
+  "git rm --cached --ignore-unmatch Library/PackageCache/com.unity.burst@1.8.13/.Runtime/libburst-llvm-16.dylib" \
+  --prune-empty --tag-name-filter cat -- --all
+Library/PackageCache/
