@@ -1,5 +1,6 @@
 ## Ignorar la carpeta de Visual Studio .vs
 .vs/
+.vscode/
 
 ## Archivos de configuración de usuario de Visual Studio
 *.user
@@ -17,6 +18,14 @@
 *.[Bb]ak
 *.[Tt]mp
 *.[Ll]og
+
+# Ignorar la carpeta Library y Artifacts de Unity
+Library/
+Artifacts/
+
+# Ignorar cache de paquetes de Unity
+Library/PackageCache/
+
 
 ## Otros archivos y carpetas
 packages/   # Carpeta de paquetes NuGet
