@@ -9,10 +9,14 @@
 *.userprefs
 
 ## Archivos de compilación de Visual Studio
-[Bb]in/
-[Oo]bj/
-[Dd]ebug*/
-[Rr]elease*/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
 
 ## Archivos de respaldo
 *.[Bb]ak
