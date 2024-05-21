@@ -18,6 +18,7 @@
 /[Uu]ser[Ss]ettings/
 
 
+
 ## Archivos de respaldo
 *.[Bb]ak
 *.[Tt]mp
@@ -67,3 +68,4 @@ _ReSharper*/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+Library/PackageCache/
